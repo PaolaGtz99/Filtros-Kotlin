@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:foregroundTint="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/layInicio"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/titulo" />
+
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:height="@android:dimen/notification_large_icon_height"
+            android:background="@drawable/ic_baseline_brush_24"
+            android:backgroundTint="#7AFFFFFF"
+            android:foreground="@android:drawable/gallery_thumb"
+            android:foregroundTint="#7AFFFFFF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/IntegranteA"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/IntegranteP"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/layEditar"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_baseline_save_24"
+                android:backgroundTint="#CDDC39" />
+
+            <Button
+                android:id="@+id/btnOriginal"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_baseline_cached_24"
+                android:backgroundTint="#CDDC39" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="140pt"
+            android:layout_height="160pt"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:clickable="false" />
+
+        <mx.example.afinal.ElegirImg
+            android:id="@+id/EleImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <mx.example.afinal.Filtros
+            android:id="@+id/EleFiltro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoc" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/titulo" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
