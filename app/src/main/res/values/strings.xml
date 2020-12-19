@@ -2,7 +2,6 @@
     <string name="app_name">Final</string>
     <string name="titulo">FILTROS</string>
     <string name="IntegranteP">Paola Gutiérrez Salazar </string>
-    <string name="IntegranteA">Alexia Pilar Flores Flores</string>
     <string-array name="filtrosBasicos">
         <item>[Seleccion básicos]</item>
         <item>Inversión o negativo</item>

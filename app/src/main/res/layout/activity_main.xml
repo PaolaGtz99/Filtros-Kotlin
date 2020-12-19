@@ -38,10 +38,7 @@
             android:backgroundTint="#7AFFFFFF"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#7AFFFFFF" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/IntegranteA"/>
+       
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
